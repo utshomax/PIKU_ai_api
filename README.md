@@ -121,7 +121,7 @@ Response:JSON
 
 ```sh
 {
-  "reply": "a_replay_from_piku"
+  "reply": "a_reply_from_piku"
 }
 ```
 Example:
@@ -152,7 +152,7 @@ Response:JSON
 
 ```sh
 {
-  "reply": "a_replay_from_piku"
+  "reply": "a_reply_from_piku"
 }
 ```
 Example:
