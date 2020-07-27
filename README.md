@@ -1,16 +1,24 @@
-<a href="https://pikuai.herokuapp.com"><img src="https://i.ibb.co/GRCJKwG/piku.png" alt="piku" border="0"></a>
+<p align='center'><a href="https://pikuai.herokuapp.com"><img src="https://i.ibb.co/56sHKm7/piku-or.png" alt="piku" border="0"></a></p>
 
-# **PIKU**
+<h2 align="center">Piku API with flask </h2>
 
-[![API](https://img.shields.io/badge/API-YES-lightgrey)](
-    https://pikuai.herokuapp.com)
-[![Tensorflow](https://img.shields.io/badge/Tensorflow-v1.8.0-brightgreenI)](
-    )
-[![Version](https://img.shields.io/badge/VERSION-v1.0.1-yellowgreen)](
-    )
-[![codecov](https://img.shields.io/badge/Heroku-success-blue)](
-    https://devcenter.heroku.com/articles/git)
-    
+<p align="center"> GET REPLAY FROM PIKU - DEEPLEARNING CHATBOT WITH API</p>
+
+<p align='center'>
+ <a href="https://pikuai.herokuapp.com"><img src="https://img.shields.io/badge/API-YES-lightgrey" alt="API" border="0"></a>
+ <a href="https://github.com/utshomax/PIKU_ai_api/releases/tag/1.0.1"><img src="https://img.shields.io/badge/VERSION-v1.0.1-yellowgreen" alt="Version" border="0"></a>
+ <a href="https://www.tensorflow.org/versions/r1.15/api_docs/python/tf"><img src="https://img.shields.io/badge/Tensorflow-v1.8.0-brightgreenI" alt="Version" border="0"></a>
+ <a href="https://devcenter.heroku.com/articles/git"><img src="https://img.shields.io/badge/Heroku-success-blue" alt="piku" border="0"></a>
+ </p> 
+ <p align="center">
+    <a href="#usage">Usages</a>
+    ·
+    <a href="https://github.com/utshomax/PIKU_ai_api/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/utshomax/PIKU_ai_api/issues/new/choose">Request Feature</a>
+  </p>
+  
+  
 ## 🧬PIKU is an implementation of Deeplearning Model with Tensorflow and Flask
 
 **API Feature implemented with Flask**
@@ -104,7 +112,7 @@ Download of clone the Repo and Follow the instruction from bellow link to deploy
 
 [Instructions](https://devcenter.heroku.com/articles/git)
 
-## 🧩Usage
+## Usage
 
 **🤵Devloper**
 
