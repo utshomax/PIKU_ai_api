@@ -49,14 +49,14 @@ Full list Avilabe in requirements.txt file.
 * Flask
 * Flask-SqlAlchemy
 
-To install All prerequisites nevigate to Project Folder. Then
+To install All prerequisites, nevigate to Project Folder. Then:
 
 ```sh
 pip install -r requirements.txt
 ```
 
 ### 💽Installation
-**Ignore if you want to use the redimate API and see ```Usage```**
+**Ignore if you want to use the redimate API . See ```Usage``` for Simple Use**
 
  🖥️**Local Machine Installation**
 
