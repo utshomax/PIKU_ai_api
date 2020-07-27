@@ -96,11 +96,13 @@ Linux User:
 
 You know that
 
+[![codecov](https://img.shields.io/badge/Heroku-success-blue)](
+    https://devcenter.heroku.com/articles/git)
 ### **☁️Heroku Deploy**
 
 Download of clone the Repo and Follow the instruction from bellow link to deploy using Heroku CLI.
 
-[Instructuins](https://devcenter.heroku.com/articles/git)
+[Instructions](https://devcenter.heroku.com/articles/git)
 
 ## 🧩Usage
 
