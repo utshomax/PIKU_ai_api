@@ -1,0 +1,9 @@
+# Ignore pycache folder
+_pycache_
+
+# Ignore all text files
+*.txt
+
+
+# Ignore DB files
+.sqlite3
