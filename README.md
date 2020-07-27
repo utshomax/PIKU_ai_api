@@ -1,4 +1,4 @@
-<p align='center'><a href="https://pikuai.herokuapp.com"><img src="https://i.ibb.co/56sHKm7/piku-or.png" alt="piku" border="0"></a></p>
+<p align='center'><a href="https://pikuai.herokuapp.com"><img src="https://i.ibb.co/TBS16nM/piku-logo.png" alt="piku-logo" border="0"></a></p>
 
 <h2 align="center">Piku API with flask </h2>
 
