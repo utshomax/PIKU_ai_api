@@ -96,7 +96,8 @@ Linux User:
 
 You know that
 
-**☁️Heroku Deploy**
+### **☁️Heroku Deploy**
+
 Download of clone the Repo and Follow the instruction from bellow link to deploy using Heroku CLI.
 
 [Instructuins](https://devcenter.heroku.com/articles/git)
