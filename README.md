@@ -45,6 +45,7 @@ PIKU is a chatboot which can reply to your Question with the help of Deeplearnin
 
 **Piku can run on your local machine or You can use redimate API**
 
+**🧿Ignore if you want to use the redimate API . See <a href="#usage">Usages</a> for Simple Use**
 
 
 ### ⚠️Prerequisites
@@ -66,7 +67,6 @@ pip install -r requirements.txt
 ```
 
 ### 💽Installation
-**Ignore if you want to use the redimate API . See ```Usage``` for Simple Use**
 
  🖥️**Local Machine Installation**
 
