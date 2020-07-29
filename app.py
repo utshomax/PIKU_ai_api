@@ -1,12 +1,14 @@
 from flask import request,Flask,jsonify #pylint: disable=F0401
+from flask_cors import CORS
 import secrets
 import PikuAi as bot
 from time import gmtime, strftime
 import json
 from flask_sqlalchemy import SQLAlchemy
 
-app = Flask(__name__)
 
+app = Flask(__name__)
+CORS(app)
 
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dbpiku.sqlite3'
