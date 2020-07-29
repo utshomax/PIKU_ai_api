@@ -43,8 +43,9 @@ PIKU is a chatboot which can reply to your Question with the help of Deeplearnin
 <!-- GETTING STARTED -->
 ## Getting Started
 
-**Piku can run on your local machine or You can use redimate API**
+**Piku can run on your local machine,Cloud Sever or You can use redimate API**
 
+**🧿Ignore if you want to use the redimate API . See <a href="#usage">Usages</a> for Simple Use**
 
 
 ### ⚠️Prerequisites
@@ -66,7 +67,6 @@ pip install -r requirements.txt
 ```
 
 ### 💽Installation
-**Ignore if you want to use the redimate API . See ```Usage``` for Simple Use**
 
  🖥️**Local Machine Installation**
 
@@ -114,7 +114,7 @@ Download of clone the Repo and Follow the instruction from bellow link to deploy
 
 [Instructions](https://devcenter.heroku.com/articles/git)
 
-## Usage
+## 🧩Usage
 
 **🤵Devloper**
 
@@ -257,3 +257,7 @@ Distributed under the Apache License 2.0 . See `LICENSE` for more information.
 Utsab Utsho - [FACEBOOK](https://fb.com/utsabutsho) - utsho9009@gmail.com
 
 Project Link: [https://github.com/utshomax/piku_ai](https://github.com/utshomax/piku_ai)
+
+### #Soutout
+
+Timothy Ruscica - For his awesome playlist on his youtube chanel.
