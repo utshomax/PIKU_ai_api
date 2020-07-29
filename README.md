@@ -43,7 +43,7 @@ PIKU is a chatboot which can reply to your Question with the help of Deeplearnin
 <!-- GETTING STARTED -->
 ## Getting Started
 
-**Piku can run on your local machine or You can use redimate API**
+**Piku can run on your local machine,Cloud Sever or You can use redimate API**
 
 **🧿Ignore if you want to use the redimate API . See <a href="#usage">Usages</a> for Simple Use**
 
