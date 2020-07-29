@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:/Users/utsab/Desktop/Tensorflow-Chatbot-master/Bot/model.tflearn"
-all_model_checkpoint_paths: "C:/Users/utsab/Desktop/Tensorflow-Chatbot-master/Bot/model.tflearn"
+model_checkpoint_path: "E:/python/PIKU_ai_api/model.tflearn"
+all_model_checkpoint_paths: "E:/python/PIKU_ai_api/model.tflearn"

@@ -1,38 +1,35 @@
 {"intents": [
-        {"tag": "404",
-         "responses": ["Sorry! I am still learning. Help me to learn", "Can't undersand.Help me to learn"]
-        },
-        {"tag": "1",
+        {"tag": "greet",
          "patterns": ["Hi","Is anyone there?", "Hello"],
          "responses": ["Hi", "Hello", "Hi there, how can I help?"],
          "context_set": ""
         },
-        {"tag": "2",
+        {"tag": "about",
          "patterns": ["Who are you","What is you name","Do you have a name"],
          "responses": ["Hi, I'm piku", "My name is piku", "I'm piku"],
          "context_set": ""
         },
-        {"tag": "5",
+        {"tag": "weather",
          "patterns": ["How is the weather today"],
          "responses": ["It's sunny day"],
          "context_set": ""
         },
-        {"tag": "6",
+        {"tag": "events",
          "patterns": ["What events are available today"],
          "responses": ["Live in concent will be at UOM JJ hall"],
          "context_set": ""
         },
-        {"tag": "7",
+        {"tag": "formal",
          "patterns": ["How are you","What's up"],
          "responses": ["I'm fine, Thanks for asking.","I'm doing well","I'm fine. And you ?"],
          "context_set": ""
         },
-        {"tag": "8",
+        {"tag": "bye",
          "patterns": ["Bye", "See you later", "Goodbye"],
          "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
          "context_set": ""
         },
-        {"tag": "9",
+        {"tag": "thank",
          "patterns": ["Thank you"],
          "responses": ["You are welcome"],
          "context_set": ""

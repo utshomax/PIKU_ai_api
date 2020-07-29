@@ -88,7 +88,7 @@ class PikuAi(object):
                             return random.choice(i['responses'])
         else:
             #returning errors
-            return random.choice(self.intents['intents'][0]['responses'])
+            return random.choice(["Sorry, Didn't Understand. Please try again.", "I am still learning.", "Didn't understand. help me to learn."])
 
                
 
