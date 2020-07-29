@@ -64,7 +64,6 @@ class PikuAi(object):
         results = self.model.predict([self.bow(sentence, self.words)])[0]
         results = [[i, r] for i, r in enumerate(results) if r > ERROR_THRESHOLD]
         results.sort(key=lambda x: x[1], reverse=True)
-        print(results)
         return_list = []
         for r in results:
             return_list.append((self.classes[r[0]], r[1]))
