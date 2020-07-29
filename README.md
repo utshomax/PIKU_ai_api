@@ -257,3 +257,7 @@ Distributed under the Apache License 2.0 . See `LICENSE` for more information.
 Utsab Utsho - [FACEBOOK](https://fb.com/utsabutsho) - utsho9009@gmail.com
 
 Project Link: [https://github.com/utshomax/piku_ai](https://github.com/utshomax/piku_ai)
+
+### #Soutout
+
+Timothy Ruscica - For his awesome playlist on his youtube chanel.
