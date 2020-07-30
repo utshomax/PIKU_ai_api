@@ -41,8 +41,8 @@ def replyBypiku(key):
     if verifyApi(key):
         q= str(request.args['getReply'])
         res = bot.PikuAi.getBot().response(q)
-        return jsonify({"reply":res})
-    return jsonify({"reply":"Invalid api key! visit website to get one."})
+        return jsonify({'status':'ok',"reply":res})
+    return jsonify({'status':'nok',"reply":"Invalid api key! visit website to get one."})
 
 @app.route('/')
 def index():
@@ -54,14 +54,15 @@ def userinfo(key):
     user = User.query.filter_by(api_key=key).first()
 
     if not user:
-        return jsonify({'message' : 'No user found!'})
+        return jsonify({'status':'nok','message' : 'No user found!'})
 
     user_data = {}
+    user_data['status'] = 'ok'
     user_data['api_key'] = user.api_key
     user_data['username'] = user.username
     user_data['password'] = user.password
 
-    return jsonify({'user' : user_data})
+    return jsonify(user_data)
 
 @app.route('/reg',methods=['POST'])
 def register():
@@ -69,7 +70,7 @@ def register():
     uname = str(request.args['uname'])
     pwd=str(request.args['password'])
     if len(uname)<4 and len(pwd)<6:
-        return jsonify({'message' : 'failed! Please check length of username is min 4 char and length of password is min 6 char content'})  
+        return jsonify({'status':'nok','error':'909','message' : 'failed! Please check length of username is min 4 char and length of password is min 6 char content'})  
     api_predict=str(secrets.token_urlsafe(20))
     api_filter=User.query.filter_by(api_key=api_predict).first()
     if not api_filter:
@@ -78,13 +79,13 @@ def register():
             new_user = User(api_key=api_final, username=uname, password=pwd)
             db.session.add(new_user)
             db.session.commit()
-            return jsonify({'message' : 'user created!','api':api_final})
+            return jsonify({'status':'ok','message' : 'user created!','api':api_final})
         else:
-            return jsonify({'message' : 'username already exist'})
+            return jsonify({'status':'nok','message' : 'username already exist'})
     else:
         api_predict = str(secrets.token_urlsafe(20))
         
-    return jsonify({'message' : 'failed! Please check parameters or contact support'})  
+    return jsonify({'status':'nok','message' : 'failed! Please check parameters or contact support'})  
 
 
 @app.route('/getapi',methods=['GET'])
@@ -95,14 +96,15 @@ def getInfoByidpass():
     user = User.query.filter_by(username=uname,password=pwd).first()
 
     if not user:
-        return jsonify({'message' : 'No user found!'})
+        return jsonify({'status':'nok','message' : 'No user found!'})
 
     user_data = {}
+    user_data['status'] = 'ok'
     user_data['api_key'] = user.api_key
     user_data['username'] = user.username
     user_data['password'] = user.password
 
-    return jsonify({'user' : user_data})
+    return jsonify(user_data)
 
 if __name__ == '__main__':
     app.run(host= '0.0.0.0')
