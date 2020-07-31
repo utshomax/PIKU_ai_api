@@ -70,7 +70,7 @@ def register():
     uname = str(request.args['uname'])
     pwd=str(request.args['password'])
     if len(uname)<4 and len(pwd)<6:
-        return jsonify({'status':'nok','error':'909','message' : 'failed! Please check length of username is min 4 char and length of password is min 6 char content'})  
+        return jsonify({'status':'nok','error':'909','message' : 'failed! Please check length of username is min 4 char and length of password is min 6 char.'})  
     api_predict=str(secrets.token_urlsafe(20))
     api_filter=User.query.filter_by(api_key=api_predict).first()
     if not api_filter:
