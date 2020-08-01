@@ -1,11 +1,11 @@
-<p align='center'><a href="https://pikuai.herokuapp.com"><img src="https://i.ibb.co/TBS16nM/piku-logo.png" alt="piku-logo" border="0"></a></p>
+<p align='center'><a href="http://getpiku.ml"><img src="https://i.ibb.co/TBS16nM/piku-logo.png" alt="piku-logo" border="0"></a></p>
 
 <h2 align="center">Piku API with flask </h2>
 
-<p align="center"> GET REPLAY FROM PIKU - DEEPLEARNING CHATBOT WITH API</p>
+<p align="center"> GET REPLAY FROM PIKU - TENSORFLOW CHATBOT WITH API</p>
 
 <p align='center'>
- <a href="https://pikuai.herokuapp.com"><img src="https://img.shields.io/badge/API-YES-lightgrey" alt="API" border="0"></a>
+ <a href="http://getpiku.ml"><img src="https://img.shields.io/badge/API-YES-lightgrey" alt="API" border="0"></a>
  <a href="https://github.com/utshomax/PIKU_ai_api/releases/tag/1.0.1"><img src="https://img.shields.io/badge/VERSION-v1.0.1-yellowgreen" alt="Version" border="0"></a>
  <a href="https://www.tensorflow.org/versions/r1.15/api_docs/python/tf"><img src="https://img.shields.io/badge/Tensorflow-v1.8.0-brightgreenI" alt="Version" border="0"></a>
  <a href="https://devcenter.heroku.com/articles/git"><img src="https://img.shields.io/badge/Heroku-success-blue" alt="piku" border="0"></a>
@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-PIKU is a chatboot which can reply to your Question with the help of Deeplearning. Also it can be diployed to Heroku directly with the help of Gunicorn.
+PIKU is a chatboot which can reply to your Question with the help of Deeplearning and tensorflow library. Also it can be diployed to Heroku directly with the help of Gunicorn.
 
 ⛱️Features
 * Direct conversetion
@@ -36,8 +36,8 @@ PIKU is a chatboot which can reply to your Question with the help of Deeplearnin
 
 ℹ️ Documentetion and Info
 
-- **Website:** https://pikuai.herokuapp.com
-- **Documentation:** https://pikuai.herokuapp.com
+- **Website:** http://getpiku.ml
+- **Documentation:** http://getpiku.ml
 - **Source code:** https://github.com/utshomax/piku_ai
 - **Bug reports:** https://github.com/utshomax/piku_ai/issues
 <!-- GETTING STARTED -->
@@ -118,7 +118,7 @@ Download of clone the Repo and Follow the instruction from bellow link to deploy
 
 **🤵Devloper**
 
-**1.** Get a API key at [https://pikuai.herokuapp.com](https://pikuai.herokuapp.com)
+**1.** Get a API key at [http://getpiku.ml](http://getpiku.ml)
 
 **2.** Getting a reply from piku:
 
