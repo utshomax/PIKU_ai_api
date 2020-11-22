@@ -116,7 +116,7 @@ Download of clone the Repo and Follow the instruction from bellow link to deploy
 
 ## 🧩Usage
 
-**🤵Devloper**
+**🤵Developer**
 
 **1.** Get a API key at [http://getpiku.ml](http://getpiku.ml)
 
@@ -145,7 +145,7 @@ Response:JSON
   "reply": "Hi there, how can I help?"
 }
 ```
-**👨‍💻Advenced Devloper(On local machine)**
+**👨‍💻Advenced Developer(On local machine)**
 
 Replace your_ip_address with your ip address
 
