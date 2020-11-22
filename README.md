@@ -125,7 +125,7 @@ Download of clone the Repo and Follow the instruction from bellow link to deploy
 Method:GET
 
 ```sh
-https://pikuai.herokuapp.com/conv/your_api_key?getReply=your_message
+https://pikuapi.herokuapp.com/conv/your_api_key?getReply=your_message
 ```
 Response:JSON
 
@@ -136,7 +136,7 @@ Response:JSON
 ```
 Example:
 ```sh
-https://pikuai.herokuapp.com/conv/UgbnTrbkKPRqJt0wEEFqyGRbv2w?getReply=hi
+https://pikuapi.herokuapp.com/conv/UgbnTrbkKPRqJt0wEEFqyGRbv2w?getReply=hi
 ```
 Response:JSON
 
@@ -149,7 +149,7 @@ Response:JSON
 
 Replace your_ip_address with your ip address
 
-**1.** Get a API key at [https://pikuai.herokuapp.com](https://pikuai.herokuapp.com)
+**1.** Get a API key at [https://pikuapi.herokuapp.com](https://pikuapi.herokuapp.com)
 
 **2**. Getting a reply from piku:
 
